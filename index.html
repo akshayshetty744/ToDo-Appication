@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To do Application</title>
     <link rel="stylesheet" href="./style.css" />
-</head>
-<body>
-
+  </head>
+  <body>
+    <!-- header -->
     <header><h1>todos</h1></header>
-  <main>
+
+    <main>
       <div class="mainDiv">
         <!-- input -->
         <div class="input">
-            <input class="selectAll" type="button" value="V">
-            <input class="inputBox" type="text"placeholder="What needs to be done?"  >
+          <input class="selectAll" type="button" id="scales" name="scales"  />
+          <input class="inputBox" type="text" placeholder="What needs to be done?"/>
         </div>
         <!-- items -->
-        
-
-       <div class="top">
-
-      </div>
-      <!-- footer -->
-
+        <div class="top"></div>
+        <!-- footer -->
         <div class="div1"></div>
-       <div class="div2"></div> 
-       <div class="div3">
-        <div class="footer">
-            <p class="count"> item left</p>
+        <div class="div2"></div>
+        <div class="div3">
+          <div class="footer">
+            <p class="count">item left</p>
             <div class="filter-btn">
-            <input class="All" type="button" value="All">
-            <input class="Active" type="button" value="Active">
-            <input class="Completed" type="button" value="Completed">
-            <input class="Clear-Completed" type="button" value="Clear Completed">
+                <input class="All" type="button" value="All" />
+                <input class="Active" type="button" value="Active" />
+                <input class="Completed" type="button" value="Completed" />
+                <input class="Clear-Completed"  type="button" value="Clear Completed"  />
             </div>
+          </div>
         </div>
-       </div>
+      </div>
+    </main>
 
-       
-    </div>
-  </main>
-    
-    
-   <script src="./index.js"></script> 
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
